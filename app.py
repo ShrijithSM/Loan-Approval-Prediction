@@ -164,10 +164,7 @@ def main():
                 with col2:
                     display_prediction_results(prediction, probability, input_data)
     
-    with col2:
-        st.markdown('<h2 class="sub-header">📊 Prediction Results</h2>', unsafe_allow_html=True)
-        st.markdown('<div class="info-box">Fill the form and click "Predict Loan Approval" to see results here.</div>', 
-                   unsafe_allow_html=True)
+    
 
 def prepare_input_data(gender, married, dependents, education, self_employed,
                       applicant_income, coapplicant_income, loan_amount,
