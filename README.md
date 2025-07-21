@@ -1,5 +1,4 @@
 # 🏦 Loan Approval Prediction System
-
 A machine learning-powered web application built with Streamlit that predicts loan approval based on applicant information.
 
 ## 📋 Overview
